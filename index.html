@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FitZone — Workouts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">F</span> FITZONE</a><nav><a class="active" href="#workouts">Workouts</a><a href="#about">About</a></nav><a class="header-cta" href="#workouts">Find your workout <span>↗</span></a></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="dot"></span> YOUR FITNESS STARTS HERE</p><h1>BUILD YOUR<br>STRONGER <span>SELF.</span></h1><p class="hero-text">Simple, effective workouts to help you move better, feel stronger, and stay consistent.</p><a class="primary-btn" href="#workouts">Explore workouts <span>↓</span></a><div class="hero-stats"><div><strong>03</strong><small>TRAINING PLANS</small></div><div><strong>20–40<span>m</span></strong><small>SESSION LENGTH</small></div><div><strong>ALL</strong><small>FITNESS LEVELS</small></div></div></div><div class="hero-visual"><div class="hero-image"></div><div class="image-label"><span class="label-line"></span><div><strong>NO EXCUSES.</strong><small>JUST PROGRESS.</small></div></div><div class="vertical-note">STRENGTH · DISCIPLINE · PROGRESS</div></div></section>
+<section class="workouts-section" id="workouts"><div class="section-top"><div><p class="eyebrow">FIND YOUR NEXT CHALLENGE</p><h2>Choose your <span>workout.</span></h2></div><p class="section-description">Pick a plan, check the details, and get moving.<br>Your next step starts with one session.</p></div><div class="filter-row"><span id="resultCount">ALL WORKOUTS · 3</span><div class="filters"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Strength">Strength</button><button class="filter" data-filter="Cardio">Cardio</button></div></div><div id="workoutList" class="workout-grid"><p class="loading">Loading workouts…</p></div></section>
+<section class="about" id="about"><div class="about-number">01 / WHY FITZONE</div><div><h2>CONSISTENCY<br>BEATS <span>PERFECTION.</span></h2><p>You don't need to be an expert to begin. Choose a workout that fits your level, focus on good technique, and improve one session at a time.</p></div><a href="#workouts" class="round-arrow" aria-label="Back to workouts">↑</a></section>
+</main><footer><a class="brand" href="#"><span class="brand-mark">F</span> FITZONE</a><span>TRAIN SMART. STAY CONSISTENT.</span><span>© 2026 FITZONE</span></footer>
+<div class="modal" id="workoutModal" aria-hidden="true"><div class="modal-backdrop" data-close="true"></div><article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle"><button class="modal-close" id="closeModal" aria-label="Close details">×</button><div id="workoutDetail"></div></article></div>
+<script src="workouts.js"></script>
+</body></html>
